@@ -2,9 +2,12 @@ import React from 'react';
 
 function Header() {
     return (
-        <>
-        <h1>adir adir adir</h1>
-        </>
+        <header className='header'>
+            <span className='header__site-title'>
+                NewsExplorer
+            </span>
+            <button className='header__popup-button'></button>
+        </header>
     );
 };
 
