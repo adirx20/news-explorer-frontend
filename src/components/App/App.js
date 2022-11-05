@@ -11,14 +11,14 @@ function App() {
       <Header>
         <Navigation />
       </Header>
-      <Routes>
+      {/* <Routes>
         <Route
           path='/'
           element={
             <Main />
           }
         />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }
