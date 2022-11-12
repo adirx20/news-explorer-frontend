@@ -11,14 +11,7 @@ function App() {
       <Header>
         <Navigation />
       </Header>
-      {/* <Routes>
-        <Route
-          path='/'
-          element={
-            <Main />
-          }
-        />
-      </Routes> */}
+      <Main />
     </div>
   );
 }
