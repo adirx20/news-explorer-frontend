@@ -1,20 +1,14 @@
 /* about */
-.about {
+.about {}
 
-}
+.about__image {}
 
-.about__image {
-
-}
-
-.about__text-container {
-
-}
+.about__text-container {}
 
 .about__title {
-    
+    color: rgba(255, 255, 255, 1);
 }
 
 .about__text {
-
+    color: rgba(255, 255, 255, 1);
 }

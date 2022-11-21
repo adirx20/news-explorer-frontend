@@ -8,7 +8,7 @@ function Header({ children }) {
                 NewsExplorer
             </span>
             {children}
-            <button className='header__popup-button'></button>
+            <button className='header__popup-button'>Home</button>
         </header>
     );
 };
