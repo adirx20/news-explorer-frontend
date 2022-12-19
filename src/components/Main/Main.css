@@ -12,7 +12,9 @@
 }
 
 .main__title {
-    margin: 0;
+    max-width: 416px;
+    margin: 0 auto;
+    padding-top: 80px;
     font-family: 'Roboto Slab';
     font-size: 60px;
     font-weight: 400;
