@@ -8,21 +8,20 @@
 .main__form-container {
     max-width: 608px;
     margin: 0 auto;
+    padding: 80px 0;
     color: rgba(255, 255, 255, 1);
 }
 
 .main__title {
-    max-width: 416px;
     margin: 0 auto;
-    padding-top: 80px;
     font-family: 'Roboto Slab';
     font-size: 60px;
     font-weight: 400;
-    line-height: 64px;
+    line-height: 128px;
 }
 
 .main__description {
-    margin: 0;
+    margin: 32px auto 88px;
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: 400;
