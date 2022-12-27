@@ -4,3 +4,7 @@
   margin: 0 auto;
   background-color: black;
 }
+
+.app__background-image {
+  /* background-image: url('../../images/main-background.jpg'); */
+}
