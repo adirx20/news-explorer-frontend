@@ -1,8 +1,8 @@
 /* main */
 .main {
-    max-width: 100%;
+    width: 100%;
     margin: 0;
-    display: flex;
+    /* display: flex; */
 }
 
 .main__form-container {
