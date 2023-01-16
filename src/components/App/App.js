@@ -17,7 +17,7 @@ function App() {
           <Navigation />
         </Header>
         <Main />
-        {/* <Footer /> */}
+        <Footer />
       </CurrentUserContext.Provider>
     </div>
   );
