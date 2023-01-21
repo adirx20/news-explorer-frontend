@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import CurrentUserContext from '../../contexts/CurrentUserContext';
@@ -8,7 +8,8 @@ import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 
 function App() {
-  const [currentUser, setCurrentUser] = React.useState({});
+  const [loggedIn, setLoggedIn] = useState(false);
+  const [currentUser, setCurrentUser] = useState({});
 
   return (
     <div className='app app__background-image'>
