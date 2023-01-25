@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter, Switch } from 'react-router-dom';
 import './App.css';
 import CurrentUserContext from '../../contexts/CurrentUserContext';
 import Header from '../Header/Header';
@@ -12,15 +12,27 @@ function App() {
   const [currentUser, setCurrentUser] = useState({});
 
   return (
-    <div className='app app__background-image'>
-      <CurrentUserContext.Provider value={currentUser}>
-        <Header>
-          <Navigation />
-        </Header>
-        <Main />
-        <Footer />
-      </CurrentUserContext.Provider>
-    </div>
+    <Router>
+      <div className='app app__background-image'>
+        <CurrentUserContext.Provider value={currentUser}>
+          <Header>
+            <Navigation />
+          </Header>
+          <BrowserRouter>
+            <Switch>
+              <Route
+                index
+                path='/'
+                element={
+                  <Main />
+                }
+              />
+            </Switch>
+          </BrowserRouter>
+          <Footer />
+        </CurrentUserContext.Provider>
+      </div>
+    </Router>
   );
 }
 
