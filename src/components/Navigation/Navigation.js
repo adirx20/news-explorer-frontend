@@ -17,8 +17,18 @@ function Navigation() {
 
     return (
         <nav className='navigation'>
-            <button className='navigation__menu-button'></button>
-            <button className='navigation__menu-button'></button>
+            <button
+                className='navigation__menu-button'
+                onClick={navigateToMain}
+            >
+                Home
+            </button>
+            <button
+                className='navigation__menu-button'
+                onClick={navigateToSavedNews}
+            >
+                Saved News
+            </button>
         </nav>
     );
 };

@@ -4,6 +4,7 @@ import './App.css';
 import CurrentUserContext from '../../contexts/CurrentUserContext';
 import Header from '../Header/Header';
 import Navigation from '../Navigation/Navigation';
+import AccountButton from '../AccountButton/AccountButton';
 import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 
@@ -16,7 +17,9 @@ function App() {
       <div className='app app__background-image'>
         <CurrentUserContext.Provider value={currentUser}>
           <Header>
-            <Navigation />
+            <Navigation>
+              <AccountButton />
+            </Navigation>
           </Header>
           <Routes>
             <Route

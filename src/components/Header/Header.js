@@ -16,13 +16,13 @@ function Header({ children }) {
                 NewsExplorer
             </span>
             {children}
-            <button
+            {/* <button
                 className='header__popup-button'
                 role='button'
                 aria-label='Home'
             >
                 Home
-            </button>
+            </button> */}
         </header>
     );
 };
