@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router';
 import './Navigation.css';
 
-function Navigation() {
+function Navigation({ children }) {
     const navigate = useNavigate();
 
     function navigateToMain() {
@@ -29,6 +29,7 @@ function Navigation() {
             >
                 Saved News
             </button>
+            {children}
         </nav>
     );
 };

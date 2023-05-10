@@ -17,8 +17,12 @@ function App() {
       <div className='app app__background-image'>
         <CurrentUserContext.Provider value={currentUser}>
           <Header>
-            <Navigation>
-              <AccountButton />
+            <Navigation
+              loggedIn={loggedIn}
+            >
+              <AccountButton
+                loggedIn={loggedIn}
+              />
             </Navigation>
           </Header>
           <Routes>
