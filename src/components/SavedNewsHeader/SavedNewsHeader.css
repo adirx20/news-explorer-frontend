@@ -1,1 +1,14 @@
 /* saved news header */
+
+.saved-news-header {
+    color: white;
+    padding: 40px 104px 56px;
+}
+
+.saved-news-header__subtitle {}
+
+.saved-news-header__title {}
+
+.saved-news-header__text {}
+
+.saved-news-header__keywords {}

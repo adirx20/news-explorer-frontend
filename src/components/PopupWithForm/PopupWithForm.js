@@ -9,8 +9,8 @@ function PopupWithForm({
     onSubmit,
     title,
     type,
-    name,
-    buttonText,
+    handleOrButton,
+    orButtonText,
     children
 }) {
     function handleSubmit(evt) {
@@ -49,8 +49,21 @@ function PopupWithForm({
                         className='form__submit-button'
                         type="submit"
                     >
-                        {name}
+                        {title}
                     </button>
+                    <div className='form__or-button-container'>
+                        <span className='form__or-button-prefix'>
+                            or&nbsp;
+                        </span>
+                        <button
+                            className='form__or-button'
+                            onClick={handleOrButton}
+                            type='button'
+                        >
+                            {orButtonText}
+                        </button>
+
+                    </div>
                 </form>
             </div>
         </Popup>
