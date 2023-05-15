@@ -14,11 +14,14 @@
     color: rgba(255, 255, 255, 1);
     background: none;
     border: none;
-    /* border-bottom: solid 3px rgba(255, 255, 255, 1);     ONLY IF ACTIVE */
-    border-bottom: solid 3px rgba(255, 255, 255, 1);
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
     cursor: pointer;
+    transition: border-bottom .3s linear;
+}
+
+.navigation__menu-button_active {
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
 }
