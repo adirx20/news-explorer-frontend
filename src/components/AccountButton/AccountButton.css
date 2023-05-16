@@ -1,13 +1,13 @@
 .account-button {
     height: 48px;
-    padding: 0 12px;
+    padding: 12px;
     display: flex;
     align-items: center;
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
-    background: none;
+    background: transparent;
     color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(255, 255, 255, 1);
     border-radius: 100px;
