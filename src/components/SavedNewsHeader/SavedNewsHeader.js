@@ -12,7 +12,7 @@ function SavedNewsHeader() {
             </h2>
             <p className='saved-news-header__text'>
                 By keywords:&nbsp;
-                <span className='saved-news-header__keywords'>
+                <span className='saved-news-header__text_bold'>
                     Nature, Yellowstone, and 2 other
                 </span>
             </p>
